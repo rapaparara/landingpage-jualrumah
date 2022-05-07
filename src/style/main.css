@@ -1,6 +1,8 @@
 .intro-bg {
-    height: 100vh;
+    height: 30vh;
 }
 
 .images {
+    height: 600px;
+    width: 400px;
 }

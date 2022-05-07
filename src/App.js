@@ -8,11 +8,11 @@ import Menu from './components/Menu';
 function App() {
   return (
     <div>
-      <div className='intro-bg bg-light'>
+      <div className='bg-light'>
       <NavigationBar />
       <Intro />
       </div>
-      <div className='intro-bg bg-light'>
+      <div className='bg-light h-100'>
         <Menu />
       </div>
     </div>
