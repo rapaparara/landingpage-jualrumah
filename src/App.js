@@ -4,6 +4,7 @@ import './style/main.css';
 import NavigationBar from './components/NavigationBar';
 import Intro from './components/Intro';
 import Menu from './components/Menu';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -12,8 +13,11 @@ function App() {
       <NavigationBar />
       <Intro />
       </div>
-      <div className='bg-light h-100'>
+      <div className='bg-light'>
         <Menu />
+      </div>
+      <div className='bg-primary footer'>
+        <Footer />
       </div>
     </div>
   );

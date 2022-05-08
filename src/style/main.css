@@ -5,4 +5,30 @@
 .images {
     height: 600px;
     width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.menu-image {
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+.menu-card {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 6px 9px -5px rgba(0,0,0,0.35);
+    -webkit-box-shadow: 5px 6px 9px -5px rgba(0,0,0,0.35);
+    -moz-box-shadow: 5px 6px 9px -5px rgba(0,0,0,0.35);
+}
+
+.footer {
+    height: 30vh;
+    margin-top : 15px;
+}
+
+.footer-text {
+    height : 30vh;
 }
